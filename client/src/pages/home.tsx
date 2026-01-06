@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Check, X, Leaf, Droplets, Sparkles, ChevronDown, Menu, X as CloseIcon, Mail, Phone, MapPin, Loader2 } from "lucide-react";
+import { Check, X, Leaf, Droplets, Sparkles, ChevronDown, Menu, X as CloseIcon, Mail, MapPin, Loader2 } from "lucide-react";
 import { SiFacebook, SiInstagram, SiPinterest } from "react-icons/si";
 import heroImage from "@assets/generated_images/aloe_vera_with_water_droplets.png";
 import { useMutation } from "@tanstack/react-query";
@@ -656,11 +656,7 @@ export default function Home() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-botanical" />
-                  <span>hello@aloeveraskinrenewal.com</span>
-                </li>
-                <li className="flex items-center gap-2 text-muted-foreground">
-                  <Phone className="w-4 h-4 text-botanical" />
-                  <span>(555) 123-4567</span>
+                  <span>ejm444ever@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="w-4 h-4 text-botanical" />
