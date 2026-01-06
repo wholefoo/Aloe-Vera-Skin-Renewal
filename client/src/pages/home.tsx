@@ -109,7 +109,7 @@ export default function Home() {
                 data-testid="button-shop-nav"
                 asChild
               >
-                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                   Shop Catalog
                 </a>
               </Button>
@@ -163,7 +163,7 @@ export default function Home() {
                 data-testid="button-shop-mobile"
                 asChild
               >
-                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                   Shop Catalog
                 </a>
               </Button>
@@ -201,7 +201,7 @@ export default function Home() {
                 data-testid="button-shop-hero"
                 asChild
               >
-                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                   Shop the Catalog
                 </a>
               </Button>
@@ -355,7 +355,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <Button className="w-full mt-6 bg-botanical hover:bg-botanical-dark text-white" data-testid="button-shop-deep-pore" asChild>
-                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                     Shop Deep Pore Trio
                   </a>
                 </Button>
@@ -391,7 +391,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <Button className="w-full mt-6 bg-accent-orange hover:bg-accent-orange/90 text-white" data-testid="button-shop-gentle" asChild>
-                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                     Shop Gentle Trio
                   </a>
                 </Button>
@@ -427,7 +427,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <Button className="w-full mt-6 bg-accent-pink-dark hover:bg-accent-pink-dark/90 text-white" data-testid="button-shop-body-care" asChild>
-                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                     Shop Body Care
                   </a>
                 </Button>
@@ -480,7 +480,7 @@ export default function Home() {
               data-testid="button-shop-challenge"
               asChild
             >
-              <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+              <a href="https://lbri.com/pages/shop-the-catalog?als=aloepure" target="_blank" rel="noopener noreferrer">
                 Make the Switch Today
               </a>
             </Button>
@@ -609,7 +609,7 @@ export default function Home() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="https://lbri.com/aloepure"
+                    href="https://lbri.com/pages/shop-the-catalog?als=aloepure"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-botanical transition-colors"
@@ -638,7 +638,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://lbri.com/aloepure"
+                    href="https://lbri.com/pages/shop-the-catalog?als=aloepure"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-botanical transition-colors"
