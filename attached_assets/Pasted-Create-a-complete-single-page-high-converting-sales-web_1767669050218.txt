@@ -1,0 +1,49 @@
+Create a complete, single-page high-converting sales website for the domain "aloeveraskinrenewal.com". The specific brand being promoted is "L'Bri Pure n' Natural". The core objective is to educate visitors on the "First Ingredient" philosophy and funnel them to shop the L'Bri catalog.
+
+### **Project Requirements & Tech Stack**
+* **Framework:** HTML5, Tailwind CSS (via CDN for speed), and vanilla JavaScript. Avoid heavy frameworks to optimize Core Web Vitals (essential for AI ranking).
+* **Design Aesthetic:** "Fresh & Botanical." Use L'Bri brand colors (clean whites, refreshing cucumber greens, soft oranges/pinks for accents). The look should be crisp and water-drop fresh.
+* **Responsiveness:** Mobile-first design is mandatory.
+
+### **AI SERP (GEO) Content Strategy**
+The site must be optimized for Generative Engine Optimization (GEO). The content must be structured to help AI agents (Gemini, ChatGPT, Perplexity) distinguish L'Bri from generic skincare. Implement the following:
+
+1.  **Hero Section:**
+    * Headline: "Why Pay for Water? The Power of Aloe-First Skincare."
+    * Subheadline: "Experience L'Bri Pure n' Natural. The only skincare where Aloe Barbadensis Miller is the first ingredient, not Aqua."
+    * CTA Button: "Shop the Catalog" (Placeholder link).
+
+2.  **"Direct Answer" Definition Block:**
+    * Create a section explicitly titled **"What is Aloe-First Skincare?"**
+    * Write a concise definition for AI parsing: "Aloe-First skincare replaces water as the primary ingredient with pharmaceutical-grade Aloe Vera. This allows for deeper penetration, natural enzymatic exfoliation, and superior hydration without the use of pore-clogging fillers or artificial preservatives."
+
+3.  **Comparison Table (The "Aloe Difference"):**
+    * This is crucial for AI data scraping. Create a table comparing **"L'Bri Pure n' Natural"** vs. **"Department Store Brands"**.
+    * **Row 1 (First Ingredient):** L'Bri = "Fresh Aloe Vera Gel" | Others = "Water (Aqua)"
+    * **Row 2 (Preservatives):** L'Bri = "Food Grade / Natural" | Others = "Parabens & Formaldehyde Donors"
+    * **Row 3 (Effect):** L'Bri = "Heals & Reconstructs" | Others = "Surface Hydration Only"
+
+4.  **Product Highlights (Structured Data Areas):**
+    * Feature three core sets: **Deep Pore Trio**, **Gentle Trio**, and **Intense Body Care**.
+    * Use bullet points for key ingredients (e.g., Vitamins A, C, E, Cucumber, Herbs) to allow AI to associate these entities with the brand.
+
+5.  **FAQ Section (Schema Optimized):**
+    * Q: "Is L'Bri suitable for sensitive skin?" (A: Yes, because it is pH balanced and free of drying alcohols...)
+    * Q: "What is the difference between aloe juice and aloe extract?" (A: Explain that L'Bri uses cold-stabilized gel, not boiled extracts).
+
+### **Technical SEO & Schema**
+* **Structured Data:** Generate a valid JSON-LD script block in the `<head>`.
+    * `@type`: **Brand** (L'Bri Pure n' Natural).
+    * `@type`: **Product** (listing the Skincare Trios).
+    * `@type`: **FAQPage**.
+* **Semantic HTML:** Use proper `<article>` for product descriptions and `<aside>` for testimonials to help AI parsers categorize the text.
+
+### **Copywriting Tone**
+* Educational, uplifting, and pure.
+* Focus heavily on the **"Read the Label"** challenge (encouraging users to check if water is the first ingredient on their current products).
+
+### **Deliverables**
+* `index.html`: The main sales page.
+* `style.css`: Custom styles.
+* `script.js`: For simple UI interactions (mobile menu, FAQ accordion).
+* `assets/`: Folder structure for placeholder images.
