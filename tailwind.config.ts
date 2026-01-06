@@ -81,6 +81,19 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        botanical: {
+          DEFAULT: "hsl(var(--botanical-green) / <alpha-value>)",
+          light: "hsl(var(--botanical-green-light) / <alpha-value>)",
+          dark: "hsl(var(--botanical-green-dark) / <alpha-value>)",
+        },
+        "accent-orange": {
+          DEFAULT: "hsl(var(--accent-orange) / <alpha-value>)",
+          light: "hsl(var(--accent-orange-light) / <alpha-value>)",
+        },
+        "accent-pink": {
+          DEFAULT: "hsl(var(--accent-pink) / <alpha-value>)",
+          dark: "hsl(var(--accent-pink-dark) / <alpha-value>)",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
