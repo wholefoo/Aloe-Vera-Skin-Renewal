@@ -107,8 +107,11 @@ export default function Home() {
               <Button
                 className="bg-botanical hover:bg-botanical-dark text-white"
                 data-testid="button-shop-nav"
+                asChild
               >
-                Shop Catalog
+                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  Shop Catalog
+                </a>
               </Button>
             </div>
 
@@ -158,8 +161,11 @@ export default function Home() {
               <Button
                 className="bg-botanical hover:bg-botanical-dark text-white w-full"
                 data-testid="button-shop-mobile"
+                asChild
               >
-                Shop Catalog
+                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  Shop Catalog
+                </a>
               </Button>
             </div>
           )}
@@ -193,8 +199,11 @@ export default function Home() {
                 size="lg"
                 className="bg-botanical hover:bg-botanical-dark text-white px-8 py-6 text-lg"
                 data-testid="button-shop-hero"
+                asChild
               >
-                Shop the Catalog
+                <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                  Shop the Catalog
+                </a>
               </Button>
               <Button
                 size="lg"
@@ -345,8 +354,10 @@ export default function Home() {
                     <span>Natural Herbal Blend</span>
                   </li>
                 </ul>
-                <Button className="w-full mt-6 bg-botanical hover:bg-botanical-dark text-white" data-testid="button-shop-deep-pore">
-                  Shop Deep Pore Trio
+                <Button className="w-full mt-6 bg-botanical hover:bg-botanical-dark text-white" data-testid="button-shop-deep-pore" asChild>
+                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                    Shop Deep Pore Trio
+                  </a>
                 </Button>
               </article>
             </Card>
@@ -379,8 +390,10 @@ export default function Home() {
                     <span>No Drying Alcohols</span>
                   </li>
                 </ul>
-                <Button className="w-full mt-6 bg-accent-orange hover:bg-accent-orange/90 text-white" data-testid="button-shop-gentle">
-                  Shop Gentle Trio
+                <Button className="w-full mt-6 bg-accent-orange hover:bg-accent-orange/90 text-white" data-testid="button-shop-gentle" asChild>
+                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                    Shop Gentle Trio
+                  </a>
                 </Button>
               </article>
             </Card>
@@ -413,8 +426,10 @@ export default function Home() {
                     <span>All-Natural Ingredients</span>
                   </li>
                 </ul>
-                <Button className="w-full mt-6 bg-accent-pink-dark hover:bg-accent-pink-dark/90 text-white" data-testid="button-shop-body-care">
-                  Shop Body Care
+                <Button className="w-full mt-6 bg-accent-pink-dark hover:bg-accent-pink-dark/90 text-white" data-testid="button-shop-body-care" asChild>
+                  <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                    Shop Body Care
+                  </a>
                 </Button>
               </article>
             </Card>
@@ -463,8 +478,11 @@ export default function Home() {
               size="lg"
               className="mt-6 bg-botanical hover:bg-botanical-dark text-white px-8"
               data-testid="button-shop-challenge"
+              asChild
             >
-              Make the Switch Today
+              <a href="https://lbri.com/aloepure" target="_blank" rel="noopener noreferrer">
+                Make the Switch Today
+              </a>
             </Button>
           </Card>
         </div>
@@ -590,13 +608,15 @@ export default function Home() {
               <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
               <ul className="space-y-3">
                 <li>
-                  <button
-                    onClick={() => scrollToSection("products")}
+                  <a
+                    href="https://lbri.com/aloepure"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-botanical transition-colors"
                     data-testid="link-footer-products"
                   >
                     Shop Products
-                  </button>
+                  </a>
                 </li>
                 <li>
                   <button
@@ -618,7 +638,9 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://lbri.com/aloepure"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-botanical transition-colors"
                     data-testid="link-footer-catalog"
                   >
