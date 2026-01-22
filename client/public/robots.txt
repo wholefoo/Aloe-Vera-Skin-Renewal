@@ -4,8 +4,49 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow AI crawlers for Answer Engine Optimization
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+
 # Sitemap location
 Sitemap: https://aloeveraskinrenewal.com/sitemap.xml
 
-# Disallow admin or API paths
-Disallow: /api/
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
