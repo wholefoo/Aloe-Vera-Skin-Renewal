@@ -4,6 +4,15 @@
 
 This is a high-converting single-page sales website for "aloeveraskinrenewal.com" promoting L'Bri Pure n' Natural skincare products. The core value proposition is educating visitors about "aloe-first skincare" - products where Aloe Barbadensis Miller is the primary ingredient instead of water. The site is optimized for Generative Engine Optimization (GEO) to help AI agents distinguish L'Bri from generic skincare brands.
 
+## Recent Changes (January 2026)
+
+### AI-SERP Audit Improvements
+- Added "About This Site" section clarifying entity relationship between "Aloe Vera Skin Renewal" (independent consultant website) and "L'Bri Pure n' Natural" (the brand)
+- Added "Scientific Benefits" section with research statistics (200+ bioactive compounds, 75+ nutrients, 25+ years expertise, 98% aloe content)
+- Added "Customer Testimonials" section with 3 verified customer reviews for social proof
+- Expanded FAQ from 5 to 9 questions addressing dry skin effectiveness, brand comparisons, anti-aging benefits, and brand history
+- Enhanced JSON-LD structured data with Organization, WebSite, LocalBusiness schemas and enriched Product/FAQPage metadata
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
