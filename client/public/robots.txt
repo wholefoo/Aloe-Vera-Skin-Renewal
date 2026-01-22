@@ -1,0 +1,11 @@
+# Robots.txt for aloeveraskinrenewal.com
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aloeveraskinrenewal.com/sitemap.xml
+
+# Disallow admin or API paths
+Disallow: /api/
