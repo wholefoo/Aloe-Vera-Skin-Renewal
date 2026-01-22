@@ -231,9 +231,10 @@ export default function Home() {
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto" data-testid="text-about-site-content">
             This website is operated by an <strong className="text-foreground">independent L'Bri Pure n' Natural consultant</strong> based in Mukwonago, Wisconsin. 
-            Our mission is to educate you about the revolutionary "aloe-first" skincare philosophy and help you discover products 
-            that truly nourish your skin from the first ingredient. L'Bri Pure n' Natural has been crafting premium aloe-based skincare 
-            since 1998, and we're proud to share their exceptional products with you.
+            Our mission is to educate you about the revolutionary "Aloe-First" skincare philosophy and help you discover products 
+            that truly nourish your skin from the first ingredient. Founded in 1998 by Linda and Brian Kaminski, L'Bri has been 
+            a family-owned Wisconsin company for over 27 years, crafting toxin-free, cruelty-free skincare with cold-stabilized 
+            aloe from the Rio Grande Valley.
           </p>
         </div>
       </section>
@@ -289,7 +290,7 @@ export default function Home() {
               <p className="text-sm text-muted-foreground">Active nutrients found in fresh Aloe Barbadensis Miller</p>
             </Card>
             <Card className="p-6 text-center bg-botanical-light/50 border-none">
-              <div className="text-4xl font-bold text-botanical mb-2">25+</div>
+              <div className="text-4xl font-bold text-botanical mb-2">27</div>
               <p className="text-sm text-muted-foreground">Years of L'Bri expertise in aloe-first formulation</p>
             </Card>
             <Card className="p-6 text-center bg-botanical-light/50 border-none">
@@ -781,12 +782,12 @@ export default function Home() {
                 Who founded L'Bri and what makes them unique?
               </AccordionTrigger>
               <AccordionContent className="pb-4 text-muted-foreground">
-                L'Bri Pure n' Natural was founded in <strong className="text-foreground">1998 by Linda Kaminski</strong>, a Wisconsin native who discovered 
-                the remarkable healing properties of aloe vera while recovering from a serious illness. Dissatisfied with 
-                water-filled products claiming aloe benefits, she created skincare that truly delivered on aloe's promise. 
-                Today, L'Bri remains a family-owned company based in Mukwonago, Wisconsin, committed to the original "First 
-                Ingredient" philosophy. Every product is formulated with pharmaceutical-grade Aloe Barbadensis Miller and 
-                manufactured in FDA-registered facilities with rigorous quality control.
+                L'Bri Pure n' Natural was founded in <strong className="text-foreground">1998 by Linda and Brian Kaminski</strong>—the company name 
+                combines their first names (L-inda + BRI-an). After Brian suffered burns in a workplace accident and found relief 
+                through aloe vera when conventional treatments failed, Linda became passionate about creating skincare with aloe 
+                as the foundation. Today, L'Bri remains a family-owned company based in Mukwonago, Wisconsin, committed to the 
+                original "Aloe-First" philosophy. Their aloe is handpicked from plants cultivated in the Rio Grande Valley and 
+                cold-stabilized to preserve all 200+ beneficial compounds.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
