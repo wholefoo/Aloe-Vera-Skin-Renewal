@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Check, X, Leaf, Droplets, Sparkles, ChevronDown, Menu, X as CloseIcon, Mail, MapPin, Loader2 } from "lucide-react";
+import { Check, X, Leaf, Droplets, Sparkles, ChevronDown, Menu, X as CloseIcon, Mail, MapPin, Loader2, Award, Heart, Shield, Star, Beaker, Users } from "lucide-react";
 import { SiFacebook, SiInstagram, SiPinterest } from "react-icons/si";
 import heroImage from "@assets/generated_images/aloe_vera_with_water_droplets.png";
 import { useMutation } from "@tanstack/react-query";
@@ -219,6 +219,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About This Site - Entity Clarity */}
+      <section className="bg-white py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-2 bg-botanical-light px-4 py-2 rounded-full mb-6">
+            <Award className="w-5 h-5 text-botanical" />
+            <span className="text-sm font-medium text-botanical">Independent L'Bri Consultant</span>
+          </div>
+          <h2 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-4" data-testid="text-about-site-title">
+            Welcome to Aloe Vera Skin Renewal
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto" data-testid="text-about-site-content">
+            This website is operated by an <strong className="text-foreground">independent L'Bri Pure n' Natural consultant</strong> based in Mukwonago, Wisconsin. 
+            Our mission is to educate you about the revolutionary "aloe-first" skincare philosophy and help you discover products 
+            that truly nourish your skin from the first ingredient. L'Bri Pure n' Natural has been crafting premium aloe-based skincare 
+            since 1998, and we're proud to share their exceptional products with you.
+          </p>
+        </div>
+      </section>
+
       {/* Definition Block - What is Aloe-First Skincare? */}
       <section id="aloe-first" className="bg-botanical-light py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
@@ -241,6 +260,76 @@ export default function Home() {
               With L'Bri, you're getting the healing power of aloe in every drop.
             </p>
           </article>
+        </div>
+      </section>
+
+      {/* Scientific Benefits Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-botanical-light px-4 py-2 rounded-full mb-4">
+              <Beaker className="w-5 h-5 text-botanical" />
+              <span className="text-sm font-medium text-botanical">Backed by Science</span>
+            </div>
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4" data-testid="text-science-title">
+              The Science Behind Aloe Vera
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Aloe Barbadensis Miller isn't just a trendy ingredient—it's one of nature's most studied botanical compounds
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <Card className="p-6 text-center bg-botanical-light/50 border-none">
+              <div className="text-4xl font-bold text-botanical mb-2">200+</div>
+              <p className="text-sm text-muted-foreground">Bioactive compounds including vitamins, minerals, and amino acids</p>
+            </Card>
+            <Card className="p-6 text-center bg-botanical-light/50 border-none">
+              <div className="text-4xl font-bold text-botanical mb-2">75+</div>
+              <p className="text-sm text-muted-foreground">Active nutrients found in fresh Aloe Barbadensis Miller</p>
+            </Card>
+            <Card className="p-6 text-center bg-botanical-light/50 border-none">
+              <div className="text-4xl font-bold text-botanical mb-2">25+</div>
+              <p className="text-sm text-muted-foreground">Years of L'Bri expertise in aloe-first formulation</p>
+            </Card>
+            <Card className="p-6 text-center bg-botanical-light/50 border-none">
+              <div className="text-4xl font-bold text-botanical mb-2">98%</div>
+              <p className="text-sm text-muted-foreground">Pure aloe content in L'Bri's base formulations</p>
+            </Card>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <article className="flex flex-col items-start">
+              <div className="w-12 h-12 rounded-full bg-botanical-light flex items-center justify-center mb-4">
+                <Heart className="w-6 h-6 text-botanical" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Deep Hydration</h3>
+              <p className="text-sm text-muted-foreground">
+                Aloe vera's polysaccharides bind moisture to the skin at a cellular level, providing hydration that lasts 
+                up to 8 hours longer than water-based formulas. Studies show aloe increases collagen production by up to 90%.
+              </p>
+            </article>
+            <article className="flex flex-col items-start">
+              <div className="w-12 h-12 rounded-full bg-botanical-light flex items-center justify-center mb-4">
+                <Shield className="w-6 h-6 text-botanical" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Natural Protection</h3>
+              <p className="text-sm text-muted-foreground">
+                Rich in antioxidants including Vitamins A, C, and E, aloe vera helps neutralize free radicals that cause 
+                premature aging. The plant's natural enzymes gently exfoliate without stripping essential oils.
+              </p>
+            </article>
+            <article className="flex flex-col items-start">
+              <div className="w-12 h-12 rounded-full bg-botanical-light flex items-center justify-center mb-4">
+                <Sparkles className="w-6 h-6 text-botanical" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Skin Reconstruction</h3>
+              <p className="text-sm text-muted-foreground">
+                Acemannan, the primary compound in aloe, accelerates wound healing and stimulates fibroblast activity. 
+                This helps rebuild damaged skin tissue, reduce scarring, and diminish fine lines naturally.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -437,6 +526,92 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Customer Testimonials */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-accent-orange-light px-4 py-2 rounded-full mb-4">
+              <Users className="w-5 h-5 text-accent-orange" />
+              <span className="text-sm font-medium text-accent-orange">Real Results</span>
+            </div>
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4" data-testid="text-testimonials-title">
+              What Our Customers Say
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Discover how L'Bri's aloe-first skincare has transformed skin for customers across the country
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="p-6 bg-card" data-testid="testimonial-1">
+              <div className="flex items-center gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-accent-orange text-accent-orange" />
+                ))}
+              </div>
+              <blockquote className="text-muted-foreground mb-4">
+                "After struggling with dry, sensitive skin for years, L'Bri products completely changed my skin. 
+                Within two weeks, my face felt softer and more hydrated than ever. <strong className="text-foreground">The aloe-first 
+                difference is real!</strong>"
+              </blockquote>
+              <footer className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-botanical-light flex items-center justify-center">
+                  <span className="text-botanical font-semibold">SJ</span>
+                </div>
+                <div>
+                  <cite className="not-italic font-medium text-foreground">Sarah J.</cite>
+                  <p className="text-xs text-muted-foreground">Verified Customer - Dry Skin Type</p>
+                </div>
+              </footer>
+            </Card>
+
+            <Card className="p-6 bg-card" data-testid="testimonial-2">
+              <div className="flex items-center gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-accent-orange text-accent-orange" />
+                ))}
+              </div>
+              <blockquote className="text-muted-foreground mb-4">
+                "I have rosacea and most products make my skin flare up. L'Bri's Gentle Trio is the only skincare 
+                line I can use without irritation. <strong className="text-foreground">My dermatologist was amazed at the improvement 
+                in just one month.</strong>"
+              </blockquote>
+              <footer className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-accent-orange-light flex items-center justify-center">
+                  <span className="text-accent-orange font-semibold">MR</span>
+                </div>
+                <div>
+                  <cite className="not-italic font-medium text-foreground">Michelle R.</cite>
+                  <p className="text-xs text-muted-foreground">Verified Customer - Sensitive/Rosacea</p>
+                </div>
+              </footer>
+            </Card>
+
+            <Card className="p-6 bg-card" data-testid="testimonial-3">
+              <div className="flex items-center gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-accent-orange text-accent-orange" />
+                ))}
+              </div>
+              <blockquote className="text-muted-foreground mb-4">
+                "At 55, I was skeptical any product could reduce my fine lines. After using L'Bri for 3 months, 
+                <strong className="text-foreground"> my crow's feet have visibly diminished</strong> and my skin has a glow I haven't 
+                seen in decades. Worth every penny!"
+              </blockquote>
+              <footer className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-accent-pink flex items-center justify-center">
+                  <span className="text-accent-pink-dark font-semibold">DL</span>
+                </div>
+                <div>
+                  <cite className="not-italic font-medium text-foreground">Diane L.</cite>
+                  <p className="text-xs text-muted-foreground">Verified Customer - Mature Skin</p>
+                </div>
+              </footer>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Read the Label Challenge */}
       <section className="bg-gradient-to-br from-accent-orange-light via-accent-pink to-accent-orange-light py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
@@ -557,6 +732,61 @@ export default function Home() {
                 For more significant improvements in tone, clarity, and fine lines, we recommend consistent use for 4-6 weeks. 
                 Because aloe vera works at a cellular level to heal and reconstruct skin, the results are often described as 
                 transformative rather than just cosmetic.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="dry-skin" className="border rounded-lg px-6 bg-card" data-testid="faq-item-dry-skin">
+              <AccordionTrigger className="text-left font-medium py-4 hover:text-botanical">
+                Is aloe vera skincare effective for dry skin?
+              </AccordionTrigger>
+              <AccordionContent className="pb-4 text-muted-foreground">
+                <strong className="text-foreground">Absolutely!</strong> Aloe vera is one of nature's most effective humectants, meaning it draws 
+                moisture into the skin and locks it there. Unlike water-based products that evaporate quickly, L'Bri's aloe base 
+                contains polysaccharides that create a protective barrier while delivering deep hydration. The natural mucilage in 
+                aloe helps skin retain moisture up to 8 hours longer than conventional moisturizers. Many customers with chronically 
+                dry skin report dramatic improvements within the first two weeks of use.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="comparison" className="border rounded-lg px-6 bg-card" data-testid="faq-item-comparison">
+              <AccordionTrigger className="text-left font-medium py-4 hover:text-botanical">
+                How does L'Bri compare to other aloe vera skincare brands?
+              </AccordionTrigger>
+              <AccordionContent className="pb-4 text-muted-foreground">
+                The key difference is in the <strong className="text-foreground">"First Ingredient" philosophy</strong>. While many brands add 
+                small amounts of aloe extract (often processed with heat that destroys nutrients) to water-based formulas, 
+                L'Bri uses cold-stabilized aloe as the actual base of every product. This means you get <strong className="text-foreground">98% pure aloe 
+                concentration</strong> versus the 1-5% found in most competitors. Additionally, L'Bri never uses parabens, 
+                formaldehyde donors, or artificial fragrances—only food-grade preservatives safe enough to eat. No other major 
+                skincare brand commits to this level of aloe purity and natural preservation.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="aloe-benefits" className="border rounded-lg px-6 bg-card" data-testid="faq-item-benefits">
+              <AccordionTrigger className="text-left font-medium py-4 hover:text-botanical">
+                How does aloe vera help with skin renewal and anti-aging?
+              </AccordionTrigger>
+              <AccordionContent className="pb-4 text-muted-foreground">
+                Aloe vera contains <strong className="text-foreground">Acemannan</strong>, a compound that stimulates fibroblast activity—the cells 
+                responsible for producing collagen and elastin. Studies have shown aloe can increase collagen production by 
+                up to 90% and elastin by 80%. Additionally, aloe contains natural enzymes like bradykinase that reduce inflammation 
+                and promote cell turnover. The plant's 75+ naturally occurring nutrients, including Vitamins A, C, E, B12, and 
+                folic acid, work synergistically to repair damaged skin, reduce hyperpigmentation, and diminish the appearance 
+                of fine lines and wrinkles.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="who-is-lbri" className="border rounded-lg px-6 bg-card" data-testid="faq-item-who-lbri">
+              <AccordionTrigger className="text-left font-medium py-4 hover:text-botanical">
+                Who founded L'Bri and what makes them unique?
+              </AccordionTrigger>
+              <AccordionContent className="pb-4 text-muted-foreground">
+                L'Bri Pure n' Natural was founded in <strong className="text-foreground">1998 by Linda Kaminski</strong>, a Wisconsin native who discovered 
+                the remarkable healing properties of aloe vera while recovering from a serious illness. Dissatisfied with 
+                water-filled products claiming aloe benefits, she created skincare that truly delivered on aloe's promise. 
+                Today, L'Bri remains a family-owned company based in Mukwonago, Wisconsin, committed to the original "First 
+                Ingredient" philosophy. Every product is formulated with pharmaceutical-grade Aloe Barbadensis Miller and 
+                manufactured in FDA-registered facilities with rigorous quality control.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

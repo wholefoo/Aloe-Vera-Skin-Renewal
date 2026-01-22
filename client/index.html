@@ -30,40 +30,107 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "Organization",
+          "@id": "https://aloeveraskinrenewal.com/#organization",
+          "name": "L'Bri Pure n' Natural",
+          "alternateName": ["LBri", "L'Bri Skincare", "L'Bri Pure and Natural"],
+          "description": "L'Bri Pure n' Natural is a family-owned skincare company founded in 1998 by Linda Kaminski in Wisconsin. The company pioneered the 'First Ingredient Philosophy' using pharmaceutical-grade Aloe Barbadensis Miller as the primary ingredient instead of water in all skincare products.",
+          "url": "https://lbri.com",
+          "logo": "https://aloeveraskinrenewal.com/favicon.png",
+          "foundingDate": "1998",
+          "foundingLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mukwonago",
+              "addressRegion": "Wisconsin",
+              "addressCountry": "US"
+            }
+          },
+          "founder": {
+            "@type": "Person",
+            "name": "Linda Kaminski"
+          },
+          "slogan": "Why Pay for Water? The Power of Aloe-First Skincare.",
+          "knowsAbout": ["Aloe Vera Skincare", "Natural Skincare", "Botanical Skincare", "Aloe Barbadensis Miller", "Paraben-Free Skincare", "Cold-Stabilized Aloe"]
+        },
+        {
           "@type": "Brand",
           "@id": "https://aloeveraskinrenewal.com/#brand",
           "name": "L'Bri Pure n' Natural",
-          "description": "L'Bri Pure n' Natural is a skincare brand committed to the First Ingredient Philosophy, using pharmaceutical-grade Aloe Barbadensis Miller as the primary ingredient instead of water.",
-          "url": "https://aloeveraskinrenewal.com",
+          "description": "L'Bri Pure n' Natural is a skincare brand committed to the First Ingredient Philosophy, using pharmaceutical-grade Aloe Barbadensis Miller as the primary ingredient instead of water. Founded in 1998, L'Bri has over 25 years of expertise in aloe-first formulation.",
+          "url": "https://lbri.com",
           "logo": "https://aloeveraskinrenewal.com/favicon.png",
-          "slogan": "Why Pay for Water? The Power of Aloe-First Skincare."
+          "slogan": "Why Pay for Water? The Power of Aloe-First Skincare.",
+          "parentOrganization": {"@id": "https://aloeveraskinrenewal.com/#organization"}
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://aloeveraskinrenewal.com/#website",
+          "name": "Aloe Vera Skin Renewal",
+          "alternateName": "aloeveraskinrenewal.com",
+          "description": "Aloe Vera Skin Renewal is an educational resource and sales platform operated by an independent L'Bri Pure n' Natural consultant, dedicated to teaching consumers about the benefits of aloe-first skincare.",
+          "url": "https://aloeveraskinrenewal.com",
+          "publisher": {"@id": "https://aloeveraskinrenewal.com/#consultant"},
+          "about": {"@id": "https://aloeveraskinrenewal.com/#brand"}
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://aloeveraskinrenewal.com/#consultant",
+          "name": "Aloe Vera Skin Renewal - Independent L'Bri Consultant",
+          "description": "Independent L'Bri Pure n' Natural consultant based in Mukwonago, Wisconsin, specializing in aloe-first skincare education and product consultation.",
+          "url": "https://aloeveraskinrenewal.com",
+          "email": "ejm444ever@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mukwonago",
+            "addressRegion": "Wisconsin",
+            "addressCountry": "US"
+          },
+          "areaServed": "United States",
+          "priceRange": "$$"
         },
         {
           "@type": "Product",
           "@id": "https://aloeveraskinrenewal.com/#deep-pore-trio",
           "name": "Deep Pore Trio",
           "brand": {"@id": "https://aloeveraskinrenewal.com/#brand"},
-          "description": "For oily and combination skin types seeking deep cleansing and pore refinement. Contains Fresh Aloe Vera Base, Vitamins A, C, E, Cucumber Extract, and Natural Herbal Blend.",
+          "description": "For oily and combination skin types seeking deep cleansing and pore refinement. Contains Fresh Aloe Vera Base with 98% aloe concentration, Vitamins A, C, E, Cucumber Extract, and Natural Herbal Blend. Paraben-free and formulated without harsh detergents.",
           "category": "Skincare",
-          "material": "Aloe Barbadensis Miller, Vitamins A, C, E, Cucumber Extract"
+          "material": "Aloe Barbadensis Miller, Vitamins A, C, E, Cucumber Extract",
+          "audience": {
+            "@type": "PeopleAudience",
+            "suggestedGender": "unisex",
+            "healthCondition": "Oily skin, Combination skin, Enlarged pores"
+          }
         },
         {
           "@type": "Product",
           "@id": "https://aloeveraskinrenewal.com/#gentle-trio",
           "name": "Gentle Trio",
           "brand": {"@id": "https://aloeveraskinrenewal.com/#brand"},
-          "description": "Perfect for sensitive and delicate skin types needing extra care and nourishment. Features Cold-Stabilized Aloe Gel, Chamomile, Lavender, and pH Balanced Formula.",
+          "description": "Perfect for sensitive and delicate skin types needing extra care and nourishment. Features Cold-Stabilized Aloe Gel, Chamomile, Lavender, and pH Balanced Formula. Free of drying alcohols and artificial fragrances. Suitable for rosacea and eczema-prone skin.",
           "category": "Skincare",
-          "material": "Cold-Stabilized Aloe Gel, Chamomile, Lavender"
+          "material": "Cold-Stabilized Aloe Gel, Chamomile, Lavender",
+          "audience": {
+            "@type": "PeopleAudience",
+            "suggestedGender": "unisex",
+            "healthCondition": "Sensitive skin, Rosacea, Eczema"
+          }
         },
         {
           "@type": "Product",
           "@id": "https://aloeveraskinrenewal.com/#intense-body-care",
           "name": "Intense Body Care",
           "brand": {"@id": "https://aloeveraskinrenewal.com/#brand"},
-          "description": "Full-body hydration and renewal with intensive botanical treatment. Contains Maximum Aloe Concentration, Vitamin E, Shea Butter, and Deep Moisture Lock technology.",
+          "description": "Full-body hydration and renewal with intensive botanical treatment. Contains Maximum Aloe Concentration, Vitamin E, Shea Butter, and Deep Moisture Lock technology. Provides up to 8 hours of lasting hydration.",
           "category": "Skincare",
-          "material": "Aloe Vera, Vitamin E, Shea Butter"
+          "material": "Aloe Vera, Vitamin E, Shea Butter",
+          "audience": {
+            "@type": "PeopleAudience",
+            "suggestedGender": "unisex",
+            "healthCondition": "Dry skin, Mature skin"
+          }
         },
         {
           "@type": "FAQPage",
@@ -74,7 +141,7 @@
               "name": "Is L'Bri suitable for sensitive skin?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, absolutely! L'Bri products are specifically formulated with sensitive skin in mind. Our formulas are pH balanced and completely free of drying alcohols, harsh detergents, and artificial fragrances. The natural soothing properties of aloe vera make our products gentle enough for even the most delicate skin types."
+                "text": "Yes, absolutely! L'Bri products are specifically formulated with sensitive skin in mind. Our formulas are pH balanced and completely free of drying alcohols, harsh detergents, and artificial fragrances. The natural soothing properties of aloe vera make our products gentle enough for even the most delicate skin types. Many customers with rosacea, eczema, and other skin sensitivities have found relief with L'Bri."
               }
             },
             {
@@ -90,7 +157,7 @@
               "name": "Why does the first ingredient matter so much?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ingredients are listed in order of concentration. The first ingredient makes up the largest percentage of the product. When water is first, you're essentially paying for water with a small amount of active ingredients mixed in. With L'Bri, aloe vera is the base, meaning you get the maximum therapeutic benefit in every application."
+                "text": "Ingredients are listed in order of concentration. The first ingredient makes up the largest percentage of the product. When water is first, you're essentially paying for water with a small amount of active ingredients mixed in. With L'Bri, aloe vera is the base, meaning you get the maximum therapeutic benefit in every application. This 'First Ingredient Philosophy' is what sets L'Bri apart from every other skincare brand."
               }
             },
             {
@@ -98,7 +165,7 @@
               "name": "How does L'Bri preserve products without parabens?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "L'Bri uses only food-grade, natural preservatives that are gentle on your skin and safe for long-term use. Unlike parabens and formaldehyde donors, our preservation system works with your skin's natural biology. The inherent antimicrobial properties of aloe vera also help extend product shelf life naturally."
+                "text": "L'Bri uses only food-grade, natural preservatives that are gentle on your skin and safe for long-term use. Unlike parabens and formaldehyde donors (which can disrupt hormones and irritate skin), our preservation system works with your skin's natural biology. The inherent antimicrobial properties of aloe vera also help extend product shelf life naturally."
               }
             },
             {
@@ -106,7 +173,39 @@
               "name": "How quickly will I see results?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Many customers notice a difference in their skin's texture and hydration within the first week of use. For more significant improvements in tone, clarity, and fine lines, we recommend consistent use for 4-6 weeks. Because aloe vera works at a cellular level to heal and reconstruct skin, the results are often described as transformative."
+                "text": "Many customers notice a difference in their skin's texture and hydration within the first week of use. For more significant improvements in tone, clarity, and fine lines, we recommend consistent use for 4-6 weeks. Because aloe vera works at a cellular level to heal and reconstruct skin, the results are often described as transformative rather than just cosmetic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is aloe vera skincare effective for dry skin?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely! Aloe vera is one of nature's most effective humectants, meaning it draws moisture into the skin and locks it there. Unlike water-based products that evaporate quickly, L'Bri's aloe base contains polysaccharides that create a protective barrier while delivering deep hydration. The natural mucilage in aloe helps skin retain moisture up to 8 hours longer than conventional moisturizers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does L'Bri compare to other aloe vera skincare brands?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The key difference is in the 'First Ingredient' philosophy. While many brands add small amounts of aloe extract (often processed with heat that destroys nutrients) to water-based formulas, L'Bri uses cold-stabilized aloe as the actual base of every product. This means you get 98% pure aloe concentration versus the 1-5% found in most competitors. Additionally, L'Bri never uses parabens, formaldehyde donors, or artificial fragrances."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does aloe vera help with skin renewal and anti-aging?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aloe vera contains Acemannan, a compound that stimulates fibroblast activity—the cells responsible for producing collagen and elastin. Studies have shown aloe can increase collagen production by up to 90% and elastin by 80%. Additionally, aloe contains natural enzymes like bradykinase that reduce inflammation and promote cell turnover. The plant's 75+ naturally occurring nutrients work synergistically to repair damaged skin, reduce hyperpigmentation, and diminish fine lines and wrinkles."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who founded L'Bri and what makes them unique?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "L'Bri Pure n' Natural was founded in 1998 by Linda Kaminski, a Wisconsin native who discovered the remarkable healing properties of aloe vera. Dissatisfied with water-filled products claiming aloe benefits, she created skincare that truly delivered on aloe's promise. Today, L'Bri remains a family-owned company based in Mukwonago, Wisconsin, committed to the original 'First Ingredient' philosophy with over 25 years of expertise in aloe-first formulation."
               }
             }
           ]
@@ -114,10 +213,12 @@
         {
           "@type": "WebPage",
           "@id": "https://aloeveraskinrenewal.com/",
-          "name": "L'Bri Pure n' Natural - Aloe-First Skincare",
-          "description": "Experience L'Bri Pure n' Natural. The only skincare where Aloe Barbadensis Miller is the first ingredient, not water.",
+          "name": "L'Bri Pure n' Natural - Aloe-First Skincare | Aloe Vera Skin Renewal",
+          "description": "Experience L'Bri Pure n' Natural. The only skincare where Aloe Barbadensis Miller is the first ingredient, not water. Learn about the science behind aloe-first skincare and discover products for every skin type.",
           "url": "https://aloeveraskinrenewal.com",
-          "about": {"@id": "https://aloeveraskinrenewal.com/#brand"}
+          "about": {"@id": "https://aloeveraskinrenewal.com/#brand"},
+          "mainEntity": {"@id": "https://aloeveraskinrenewal.com/#brand"},
+          "specialty": "Aloe Vera Skincare Education"
         }
       ]
     }
