@@ -131,6 +131,72 @@
           "status": "pending"
         }
       ]
+    },
+    {
+      "audit_id": "audit_20260127_051306",
+      "success": true,
+      "site_url": "https://aloeveraskinrenewal.com",
+      "brand_name": "L'Bri Pure n' Natural",
+      "timestamp": "2026-01-27T05:13:12.139038",
+      "scores": {
+        "visibility": 75,
+        "seo": 80,
+        "ai_context": 70,
+        "authority": 65
+      },
+      "fixes_count": 5,
+      "fixes": [
+        {
+          "id": "qw_1",
+          "category": "quick_win",
+          "priority": 1,
+          "action": "Improve meta descriptions and title tags for better keyword targeting",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_051306",
+          "status": "pending"
+        },
+        {
+          "id": "qw_2",
+          "category": "quick_win",
+          "priority": 2,
+          "action": "Enhance internal linking structure to boost page authority",
+          "impact": "MEDIUM",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_051306",
+          "status": "pending"
+        },
+        {
+          "id": "qw_3",
+          "category": "quick_win",
+          "priority": 3,
+          "action": "Increase use of relevant keywords in headers and content",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_051306",
+          "status": "pending"
+        },
+        {
+          "id": "tech_1",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Missing alt attributes for some images",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_051306",
+          "status": "pending"
+        },
+        {
+          "id": "tech_2",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Slow page load speed",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_051306",
+          "status": "pending"
+        }
+      ]
     }
   ],
   "fixes": [
@@ -232,6 +298,56 @@
       "impact": "HIGH",
       "auto_fixable": false,
       "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    },
+    {
+      "id": "qw_1",
+      "category": "quick_win",
+      "priority": 1,
+      "action": "Improve meta descriptions and title tags for better keyword targeting",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_051306",
+      "status": "pending"
+    },
+    {
+      "id": "qw_2",
+      "category": "quick_win",
+      "priority": 2,
+      "action": "Enhance internal linking structure to boost page authority",
+      "impact": "MEDIUM",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_051306",
+      "status": "pending"
+    },
+    {
+      "id": "qw_3",
+      "category": "quick_win",
+      "priority": 3,
+      "action": "Increase use of relevant keywords in headers and content",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_051306",
+      "status": "pending"
+    },
+    {
+      "id": "tech_1",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Missing alt attributes for some images",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_051306",
+      "status": "pending"
+    },
+    {
+      "id": "tech_2",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Slow page load speed",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_051306",
       "status": "pending"
     }
   ],
