@@ -4,11 +4,15 @@ hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["unzip"]
+packages = ["unzip", "python311Packages.flask", "python311Packages.openai", "python311Packages.requests", "python311Packages.beautifulsoup4"]
 
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
 
 [env]
 PORT = "5000"

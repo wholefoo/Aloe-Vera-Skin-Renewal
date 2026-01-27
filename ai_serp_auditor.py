@@ -113,7 +113,8 @@ class SelfAuditor:
     
     def run_audit(self) -> Dict[str, Any]:
         logger.info(f"Starting audit for {self.config.site_url}")
-        audit_id = f"audit_{datetime.now().strftime(\"%Y%m%d_%H%M%S\")}"
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        audit_id = f"audit_{timestamp}"
         
         crawl_data = self.crawler.crawl(self.config.site_url)
         if "error" in crawl_data:

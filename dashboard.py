@@ -155,5 +155,6 @@ def reject_fix(fix_id):
     return redirect(f"/?message=Failed+to+reject+fix&success=false")
 
 if __name__ == "__main__":
-    print("Starting AI-SERP Auditor Dashboard on port 5000...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    print("Starting AI-SERP Auditor Dashboard on port 8080...")
+    print("Access at: https://your-repl-url:8080")
+    app.run(host="0.0.0.0", port=8080, debug=True)
