@@ -289,18 +289,25 @@ export async function registerRoutes(
     }
     
     try {
-      // Run Python auditor script
-      const result = execSync(
-        `python3 -c "
+      // Write Python script to temp file and execute
+      const scriptContent = `
 import json
+import sys
+sys.path.insert(0, '.')
 from ai_serp_auditor import AuditConfig, SelfAuditor
-config = AuditConfig(site_url='${config.site_url}', brand_name='${config.brand_name}')
+config = AuditConfig(site_url="${config.site_url}", brand_name="${config.brand_name}")
 auditor = SelfAuditor(config)
 result = auditor.run_audit()
 print(json.dumps(result))
-"`,
-        { encoding: "utf-8", timeout: 60000 }
-      );
+`;
+      const tempScript = "/tmp/run_audit.py";
+      fs.writeFileSync(tempScript, scriptContent);
+      
+      const result = execSync(`python3 ${tempScript}`, { 
+        encoding: "utf-8", 
+        timeout: 90000,
+        cwd: process.cwd()
+      });
       
       const auditResult = JSON.parse(result.trim());
       if (auditResult.success) {
