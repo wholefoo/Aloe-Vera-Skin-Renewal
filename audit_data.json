@@ -1,0 +1,239 @@
+{
+  "audits": [
+    {
+      "audit_id": "audit_20260127_045158",
+      "success": true,
+      "site_url": "https://aloeveraskinrenewal.com",
+      "brand_name": "L'Bri Pure n' Natural",
+      "timestamp": "2026-01-27T04:52:04.814891",
+      "scores": {
+        "visibility": 75,
+        "seo": 70,
+        "ai_context": 65,
+        "authority": 80
+      },
+      "fixes_count": 5,
+      "fixes": [
+        {
+          "id": "qw_1",
+          "category": "quick_win",
+          "priority": 1,
+          "action": "Optimize meta descriptions and title tags for better keyword targeting",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045158",
+          "status": "pending"
+        },
+        {
+          "id": "qw_2",
+          "category": "quick_win",
+          "priority": 2,
+          "action": "Increase internal linking to relevant pages",
+          "impact": "MEDIUM",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045158",
+          "status": "pending"
+        },
+        {
+          "id": "qw_3",
+          "category": "quick_win",
+          "priority": 3,
+          "action": "Enhance image alt text with relevant keywords",
+          "impact": "LOW",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045158",
+          "status": "pending"
+        },
+        {
+          "id": "tech_1",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Missing XML sitemap",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045158",
+          "status": "pending"
+        },
+        {
+          "id": "tech_2",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Slow page load speed",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045158",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_20260127_045247",
+      "success": true,
+      "site_url": "https://aloeveraskinrenewal.com",
+      "brand_name": "L'Bri Pure n' Natural",
+      "timestamp": "2026-01-27T04:52:52.269245",
+      "scores": {
+        "visibility": 75,
+        "seo": 70,
+        "ai_context": 80,
+        "authority": 65
+      },
+      "fixes_count": 5,
+      "fixes": [
+        {
+          "id": "qw_1",
+          "category": "quick_win",
+          "priority": 1,
+          "action": "Optimize meta descriptions and title tags for better keyword targeting",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045247",
+          "status": "pending"
+        },
+        {
+          "id": "qw_2",
+          "category": "quick_win",
+          "priority": 2,
+          "action": "Increase internal linking to relevant pages",
+          "impact": "MEDIUM",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045247",
+          "status": "pending"
+        },
+        {
+          "id": "qw_3",
+          "category": "quick_win",
+          "priority": 3,
+          "action": "Enhance content with more detailed product descriptions and benefits",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045247",
+          "status": "pending"
+        },
+        {
+          "id": "tech_1",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Missing alt tags on some images",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045247",
+          "status": "pending"
+        },
+        {
+          "id": "tech_2",
+          "category": "technical",
+          "priority": 3,
+          "action": "Fix: Slow page load speed",
+          "impact": "HIGH",
+          "auto_fixable": false,
+          "audit_id": "audit_20260127_045247",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "fixes": [
+    {
+      "id": "qw_1",
+      "category": "quick_win",
+      "priority": 1,
+      "action": "Optimize meta descriptions and title tags for better keyword targeting",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045158",
+      "status": "applied"
+    },
+    {
+      "id": "qw_2",
+      "category": "quick_win",
+      "priority": 2,
+      "action": "Increase internal linking to relevant pages",
+      "impact": "MEDIUM",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045158",
+      "status": "applied"
+    },
+    {
+      "id": "qw_3",
+      "category": "quick_win",
+      "priority": 3,
+      "action": "Enhance image alt text with relevant keywords",
+      "impact": "LOW",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045158",
+      "status": "applied"
+    },
+    {
+      "id": "tech_1",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Missing XML sitemap",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045158",
+      "status": "applied"
+    },
+    {
+      "id": "tech_2",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Slow page load speed",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045158",
+      "status": "applied"
+    },
+    {
+      "id": "qw_1",
+      "category": "quick_win",
+      "priority": 1,
+      "action": "Optimize meta descriptions and title tags for better keyword targeting",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    },
+    {
+      "id": "qw_2",
+      "category": "quick_win",
+      "priority": 2,
+      "action": "Increase internal linking to relevant pages",
+      "impact": "MEDIUM",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    },
+    {
+      "id": "qw_3",
+      "category": "quick_win",
+      "priority": 3,
+      "action": "Enhance content with more detailed product descriptions and benefits",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    },
+    {
+      "id": "tech_1",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Missing alt tags on some images",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    },
+    {
+      "id": "tech_2",
+      "category": "technical",
+      "priority": 3,
+      "action": "Fix: Slow page load speed",
+      "impact": "HIGH",
+      "auto_fixable": false,
+      "audit_id": "audit_20260127_045247",
+      "status": "pending"
+    }
+  ],
+  "config": {}
+}
